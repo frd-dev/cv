@@ -179,9 +179,6 @@ section .heading h2 {
 
 /*  ========================================================== EXPERIENCES ========================================================== */
 
-/* TEST MENU */
-
-/* FIN TEST MENU */
 
 #experience {
     background: #00ADB1;
@@ -298,7 +295,9 @@ section .heading h2 {
 }
 
 .timeline-heading h4 {
-    color: #1A545F;
+    /* color: #1A545F; */
+    color:red;
+    overflow-wrap: break-word;
 }
 
 /* ========================================================== EDUCATION ========================================================== */
@@ -457,13 +456,46 @@ footer h5 {
 }
 
 
-/* media Query */
+/*----------------------------------- MEDIA QUERY*/
 
+@media all and (min-width: 350px)
+{
+    .timeline-heading h4
+{
+font-size: 70%;
+}
 
+.timeline-heading h3
+{
+    font-size: 80%;
+}
+
+.timeline-heading p
+{
+    font-size: 100%;
+}
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media all and (min-width: 576px)
 {
+    .timeline-panel {
+        width: 90%;
+        float: right;
+        margin-right: 40px;
+        border: 1px solid black;
+        border-radius: 7px;
+        padding: 20px 9px;
+        position: relative;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        background: white;
+    }
+
+    .timeline-heading h4
+{
+font-size: 50%;
+}
 
 }
 
@@ -478,7 +510,7 @@ footer h5 {
 
 .timeline-heading h4
 {
-font-size: 70%;
+font-size: 100%;
 }
 .timeline-heading h3
 {
