@@ -295,8 +295,7 @@ section .heading h2 {
 }
 
 .timeline-heading h4 {
-    /* color: #1A545F; */
-    color:red;
+    color: #1A545F;
     overflow-wrap: break-word;
 }
 
