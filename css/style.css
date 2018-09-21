@@ -332,10 +332,12 @@ section .heading h2 {
 
 .education-block h3 {
     color: #FC943C;
+    overflow-wrap: break-word;
 }
 
 .education-block h4 {
     margin-bottom: 20px;
+    overflow-wrap: break-word;
 }
 
 .education-block p {
