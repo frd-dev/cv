@@ -11,32 +11,42 @@ var typed = new Typed('.nom',{
     backSpeed: 50,
     backDelay: 1000,
     showCursor: false,
-    // cursorChar: '|',
-    // smartBackspace: true,
     loop: true,
-    loopCount: Infinity,
+    loopCount: Infinity
 
 });
 
 
 //  ========================================================== SCROLL ( pour que le menu descend "doucement" quand on click sur un bouton)
-$(function(){
-
-  $(".navbar-toggler a, footer a").on("click", function(event)
-  {
-
-    event.preventDefault();
-    var hash = this.hash;
-
-    $("body").animate({scrollTop: $(hash).offset().top} , 100   , function(){window.location.hash = hash;})
-
-  });
 
 
-})
 
-
-$("#fleche").on('click', ()=>{
+$("#fleche").on('click', function (){
 
   TweenLite.to(window, 2, {scrollTo:0});
-})
+});
+
+$("#abouts").on('click', ()=>{
+
+  TweenLite.to(window, 2, {scrollTo:0});
+});
+
+$("#skill").on('click', ()=>{
+
+  TweenLite.to(window, 2, {scrollTo:"#skills"});
+});
+
+$("#experiences").on('click', ()=>{
+
+  TweenLite.to(window, 2, {scrollTo:"#experience"});
+});
+
+$("#educations").on('click', ()=>{
+
+  TweenLite.to(window, 2, {scrollTo:"#education"});
+});
+
+$("#portfolios").on('click', ()=>{
+
+  TweenLite.to(window, 2, {scrollTo:"#portfolio"});
+});
