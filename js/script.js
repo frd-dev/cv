@@ -9,7 +9,7 @@ var typed = new Typed('.nom',{
     strings: ["Bentebiche Farid", "Développeur logiciel"],
     typeSpeed: 100,
     backSpeed: 50,
-    backDelay: 1000,
+    backDelay: 10,
     showCursor: false,
     loop: true,
     loopCount: Infinity
