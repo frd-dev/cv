@@ -26,27 +26,27 @@ $("#fleche").on('click', function (){
   TweenLite.to(window, 2, {scrollTo:0});
 });
 
-$("#abouts").on('click', ()=>{
+$("#abouts").on('click', function (){
 
   TweenLite.to(window, 2, {scrollTo:0});
 });
 
-$("#skill").on('click', ()=>{
+$("#skill").on('click', function (){
 
   TweenLite.to(window, 2, {scrollTo:"#skills"});
 });
 
-$("#experiences").on('click', ()=>{
+$("#experiences").on('click', function (){
 
   TweenLite.to(window, 2, {scrollTo:"#experience"});
 });
 
-$("#educations").on('click', ()=>{
+$("#educations").on('click', function(){
 
   TweenLite.to(window, 2, {scrollTo:"#education"});
 });
 
-$("#portfolios").on('click', ()=>{
+$("#portfolios").on('click', function(){
 
   TweenLite.to(window, 2, {scrollTo:"#portfolio"});
 });
