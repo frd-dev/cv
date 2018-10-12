@@ -199,6 +199,10 @@ section .heading h2 {
     padding: 30px 10px;
     position: relative;
 }
+.timeline-heading
+{
+    text-align: center;
+}
 
 .timeline:before {
     top: 0;
@@ -409,37 +413,6 @@ footer h5 {
     color: #00ADB1;
 }
 
-#instagram {
-    font-size: 30px;
-    padding: 10px;
-    color: #f76b1c;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-#instagram:hover {
-    font-size: 45px;
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-#facebook {
-    font-size: 30px;
-    padding: 10px;
-    color: #f76b1c;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-#facebook:hover {
-    font-size: 45px;
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-}
 
 #linkedin {
     font-size: 30px;
