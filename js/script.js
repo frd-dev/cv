@@ -5,12 +5,15 @@
 
 //  ========================================================== TYPEDJS
 
-var typed = new Typed('.nom',{
-    strings: ["Bentebiche Farid", "Développeur logiciel"],
-    typeSpeed: 100,
+var typed = new Typed('.nom',
+{
+    strings: ["Bentebiche Farid ^2000", "Développeur logiciel ^2000"],
+    typeSpeed: 50,
     backSpeed: 50,
     backDelay: 10,
     showCursor: false,
+    cursorChar: '|',
+    autoInsertCss: false,
     loop: true,
     loopCount: Infinity
 

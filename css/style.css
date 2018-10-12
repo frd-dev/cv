@@ -109,13 +109,36 @@ section .heading h2 {
 .autoName
 {
     height: 80px;
+
 }
 .nom
 {
-    height: 50px;
+    height: 20px;
 }
+/* .typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    }
+    @keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+    }
+    @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+    }
+    @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+    } */
 /*  ========================================================== BOUTON DL CV ==========================================================  */
 .button1 {
+
     font-weight: bold;
     text-transform: uppercase;
     color: white;
