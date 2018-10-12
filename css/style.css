@@ -234,7 +234,7 @@ section .heading h2 {
 }
 
 .timeline li .timeline-badge {
-    color: #1A545F;
+    color: black;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -280,8 +280,8 @@ section .heading h2 {
     right: -14px;
     display: inline-block;
     border-top: 14px solid transparent;
-    border-left: 14px solid white;
-    border-right: 0 solid white;
+    border-left: 14px solid black;
+    border-right: 0 solid black;
     border-bottom: 14px solid transparent;
     content: " ";
 }
