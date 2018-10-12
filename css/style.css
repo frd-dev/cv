@@ -348,6 +348,7 @@ section .heading h2 {
     margin-bottom: 20px;
 }
 
+
 /* ========================================================== PORTFOLIO ========================================================== */
 
 #portfolio {
@@ -465,13 +466,17 @@ footer h5 {
     {
         width: 90%;
         float: right;
-        margin-right: 40px;
+        margin-right: 20px;
         border: 1px solid black;
         border-radius: 7px;
         padding: 20px 9px;
         position: relative;
         box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
         background: white;
+    }
+    .timeline-panel-container-inverted .timeline-panel {
+        float: left;
+        margin-left: 65px;
     }
     .timeline-heading h4
     {
@@ -574,15 +579,15 @@ footer h5 {
 /* Sur tous types d'écrans orientés verticalement */
 @media all and (orientation: landscape)
 {
-    #about {
+    #about 
+    {
         padding-top: 10px;
         background-color: rgb(0, 173, 177) !important;
         height: auto;
     }
 
-
-
-    .button1 {
+    .button1 
+    {
         font-weight: bold;
         text-transform: uppercase;
         color: white;
@@ -593,5 +598,11 @@ footer h5 {
         display: inline-block;
         transition: all 0.3s ease-in 0s;
         background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+    }
+    .red-divider {
+        width: 50px;
+        height: 2px;
+        background: #00ADB1;
+        margin: 0 auto;
     }
 }
