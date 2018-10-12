@@ -462,26 +462,31 @@ footer h5 {
 @media all and (min-width: 350px)
 {
     .timeline-heading h4
-{
-font-size: 70%;
-}
+    {
+        font-size: 70%;
+    }
 
-.timeline-heading h3
-{
-    font-size: 80%;
-}
+    .timeline-heading h3
+    {
+        font-size: 80%;
+    }
 
-.timeline-heading p
-{
-    font-size: 100%;
-}
+    .timeline-heading p
+    {
+        font-size: 100%;
+    }
+    .timeline-body
+    {
+        font-size: 80%;
+    }
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media all and (min-width: 576px)
 {
-    .timeline-panel {
+    /* .timeline-panel 
+    {
         width: 90%;
         float: right;
         margin-right: 40px;
@@ -491,52 +496,51 @@ font-size: 70%;
         position: relative;
         box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
         background: white;
-    }
+    } */
 
-    .timeline-heading h4
-{
-font-size: 50%;
-}
+        .timeline-heading h4
+    {
+        font-size: 50%;
+    }
 
 }
 
 /* Small devices (tablets, 768px and up) */
 @media all and (min-width: 768px)
 {
-.col-4 {
-    /* -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%; */
-    max-width: 100%;
-}
+    .col-4 
+    {
+        max-width: 100%;
+    }
 
-.timeline-heading h4
-{
-font-size: 100%;
-}
-.timeline-heading h3
-{
-    font-size: 80%;
-}
+    .timeline-heading h4
+    {
+    font-size: 100%;
+    }
 
-.timeline-panel
-{
-    margin-right: 20px;
-}
+    .timeline-heading h3
+    {
+        font-size: 80%;
+    }
 
+    .timeline-panel
+    {
+        margin-right: 20px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media all and (min-width: 992px)
 {
-.education-block h3
-{
-    font-size: 120%;
-}
+    .education-block h3
+    {
+        font-size: 120%;
+    }
 
-.education-block h4
-{
-    font-size: 100%;
-}
+    .education-block h4
+    {
+        font-size: 100%;
+    }
 
 }
 
