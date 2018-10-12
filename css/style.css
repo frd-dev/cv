@@ -463,7 +463,7 @@ footer h5 {
 {
     .timeline-heading h4
     {
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .timeline-heading h3
@@ -476,6 +476,14 @@ footer h5 {
         font-size: 100%;
     }
     .timeline-body
+    {
+        font-size: 70%;
+    }
+    .education-block h3
+    {
+        font-size: 80%;
+    }
+    .education-block h4
     {
         font-size: 80%;
     }
