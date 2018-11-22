@@ -7,7 +7,7 @@
 
 var typed = new Typed('.nom',
 {
-    strings: ["Bentebiche Farid ^2000", "Développeur logiciel ^2000"],
+    strings: ["Bentebiche Farid ^2000", "Développeur Web ^2000"],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 10,
