@@ -44,14 +44,14 @@ section .heading h2 {
 
 .bg-dark
 {
-    background-color:rgba(0, 0, 0, 0.9) !important;
+    background-color:rgba(0, 0, 0, 0.7) !important;
     position: sticky;
 
 }
 
 .navbar-dark .navbar-nav .nav-link
 {
-    color: #f76b1c;
+    color: #F79521;
     text-transform: uppercase;
     font-family: bold, Arial, Helvetica, sans-serif;
     font-size: 20px;
