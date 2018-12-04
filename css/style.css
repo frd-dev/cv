@@ -358,11 +358,18 @@ section .heading h2 {
 .certificat a{
     text-decoration: none;
     color: black;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 .certificat a:hover{
-    text-decoration: blink;
+    text-decoration: none;
     color: #f76b1c;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
+
 
 /* ========================================================== PORTFOLIO ========================================================== */
 
