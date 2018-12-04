@@ -355,7 +355,14 @@ section .heading h2 {
 .education-block .red-divider {
     margin-bottom: 20px;
 }
-
+.certificat a{
+    text-decoration: none;
+    color: black;
+}
+.certificat a:hover{
+    text-decoration: blink;
+    color: #f76b1c;
+}
 
 /* ========================================================== PORTFOLIO ========================================================== */
 
