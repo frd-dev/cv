@@ -53,3 +53,8 @@ $("#portfolios").on('click', function(){
 
   TweenLite.to(window, 2, {scrollTo:"#portfolio"});
 });
+
+// $("#contacts").on('click', function(){
+
+//   TweenLite.to(window, 2, {scrollTo:"#contact"});
+// });
